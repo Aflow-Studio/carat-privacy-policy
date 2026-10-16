@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carat – Privacy Policy</title>
+<meta name="description" content="Privacy policy of Carat, the gem merge puzzle game.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;650&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #14100c;
+    --panel: #1d1712;
+    --line: rgba(201, 155, 90, .28);
+    --gold: #c99b5a;
+    --gold-hi: #e8b45a;
+    --text: #e6ddd0;
+    --muted: #a99d8e;
+    --ruby: #d8243c;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    background-image: radial-gradient(ellipse 80% 45% at 50% 0%, rgba(120, 40, 24, .35), transparent 70%);
+    background-attachment: fixed;
+    color: var(--text);
+    font: 17px/1.7 "Lato", system-ui, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 20px 80px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .gem {
+    width: 54px; height: 54px; margin: 0 auto 18px;
+    background: linear-gradient(135deg, #ff6b7d, var(--ruby) 45%, #7a0a1c);
+    clip-path: polygon(50% 0, 100% 38%, 82% 100%, 18% 100%, 0 38%);
+    filter: drop-shadow(0 0 18px rgba(216, 36, 60, .55));
+  }
+  h1 {
+    font: 650 clamp(38px, 9vw, 58px)/1 "Playfair Display", Georgia, serif;
+    letter-spacing: .32em; margin: 0 0 0 .32em; color: var(--gold);
+  }
+  .rule { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 18px 0 14px; }
+  .rule span { width: 90px; height: 1px; background: var(--gold); opacity: .8; }
+  .rule i { width: 9px; height: 9px; background: var(--gold-hi); transform: rotate(45deg); }
+  .sub { color: var(--muted); margin: 0; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; }
+  .langs { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 26px; }
+  .langs button {
+    font: 700 13px "Lato", sans-serif; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--gold); background: transparent; border: 1px solid var(--line);
+    padding: 8px 16px; border-radius: 999px; cursor: pointer;
+  }
+  .langs button[aria-pressed="true"] { background: var(--gold); color: var(--bg); border-color: var(--gold); }
+  article { display: none; }
+  article.on { display: block; }
+  section {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    padding: 22px 26px; margin: 0 0 16px;
+  }
+  h2 {
+    font: 500 22px/1.3 "Playfair Display", Georgia, serif; color: var(--gold);
+    margin: 0 0 10px;
+  }
+  p { margin: 0 0 12px; }
+  p:last-child, ul:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 12px; padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  li::marker { color: var(--gold); }
+  strong { color: #fff3e2; }
+  a { color: var(--gold-hi); overflow-wrap: anywhere; }
+  .date { text-align: center; color: var(--muted); font-size: 14px; margin: 0 0 22px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 6px 0 12px; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-top: 1px solid var(--line); }
+  th { color: var(--gold); font-weight: 700; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 36px; }
+  @media (max-width: 560px) {
+    .wrap { padding: 40px 16px 64px; }
+    section { padding: 18px 18px; }
+    table, thead, tbody, tr, th, td { display: block; }
+    thead { display: none; }
+    tr { border-top: 1px solid var(--line); padding: 8px 0; }
+    td { border: 0; padding: 2px 0; }
+    td:first-child { color: var(--gold); font-weight: 700; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="gem" aria-hidden="true"></div>
+    <h1>CARAT</h1>
+    <div class="rule" aria-hidden="true"><span></span><i></i><span></span></div>
+    <p class="sub">Privacy Policy</p>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="fr" aria-pressed="false">Français</button>
+      <button type="button" data-lang="es" aria-pressed="false">Español</button>
+      <button type="button" data-lang="it" aria-pressed="false">Italiano</button>
+      <button type="button" data-lang="de" aria-pressed="false">Deutsch</button>
+      <button type="button" data-lang="pt" aria-pressed="false">Português</button>
+    </div>
+  </header>
+
+  <!-- ======================= ENGLISH ======================= -->
+  <article lang="en" data-lang="en" data-title="Privacy Policy" class="on">
+    <p class="date">Last updated: October 16, 2026</p>
+
+    <section>
+      <h2>Who we are</h2>
+      <p>This policy applies to the mobile game <strong>Carat</strong> (the “App”), published on Google Play by <strong>AflowStudio</strong> (“we”, “us”). It explains what data the App collects, why, and who it is shared with.</p>
+      <p>Contact: <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>In short</h2>
+      <ul>
+        <li>You never create an account and we never ask for your name, email, phone number, contacts, photos or location.</li>
+        <li>Your progress (gems, rubies, furniture, hideout) is saved <strong>on your device</strong>.</li>
+        <li>Online features (leaderboards, visiting hideouts) use an <strong>anonymous</strong> identifier and the nickname you choose.</li>
+        <li>The App shows <strong>ads</strong> through Google AdMob, which collects device data to serve and measure ads.</li>
+        <li>We do not sell your data.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Data stored on your device</h2>
+      <p>Your game progress, settings (language, sound volume), purchases made with in-game currency and the layout of your hideout are stored locally in the App's private storage. This data stays on your device and is deleted when you uninstall the App.</p>
+    </section>
+
+    <section>
+      <h2>Online features</h2>
+      <p>To offer leaderboards, hideout ratings and visits between players, the App uses <strong>Google Firebase</strong> (Firebase Authentication and Cloud Firestore). When you use these features, the following is sent to Firebase:</p>
+      <table>
+        <thead><tr><th>Data</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td>Anonymous user ID</td><td>Created automatically by Firebase, not linked to your identity. Used to tell players apart and protect your data.</td></tr>
+          <tr><td>Nickname</td><td>The name you choose (for example “Name#1234”), shown to other players in leaderboards and visits. Do not use your real name.</td></tr>
+          <tr><td>Hideout layout and share code</td><td>So that other players can visit your hideout.</td></tr>
+          <tr><td>Scores</td><td>Weekly, monthly and all-time leaderboards of each game.</td></tr>
+          <tr><td>Ratings</td><td>The 1 to 10 ratings you give to other players' hideouts.</td></tr>
+          <tr><td>Reports</td><td>When you report a player, we store your anonymous ID, the reported player and the date, to moderate inappropriate nicknames or content.</td></tr>
+        </tbody>
+      </table>
+      <p>Like any internet service, Google's servers also process technical data such as your IP address to deliver the service. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy and security</a>.</p>
+    </section>
+
+    <section>
+      <h2>Advertising</h2>
+      <p>The App is free and offers rewarded video ads (that you choose to watch, for example to earn rubies) through <strong>Google AdMob</strong>. AdMob may collect and use:</p>
+      <ul>
+        <li>your device's advertising ID (Android Advertising ID),</li>
+        <li>device information (model, operating system, language, screen),</li>
+        <li>your IP address and the approximate location derived from it,</li>
+        <li>interactions with ads (views, clicks).</li>
+      </ul>
+      <p>This data is used to show ads, limit their repetition, measure their performance and prevent fraud. Depending on your choices and where you live, ads may be personalized. Where required by law (for example in the European Economic Area and the United Kingdom), your consent is requested before personalized ads are shown.</p>
+      <p>You can reset or delete your advertising ID, or opt out of personalized ads, in your device settings: <em>Settings › Google › Ads</em> (or <em>Settings › Privacy › Ads</em>). Learn more: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from apps that use its services</a>.</p>
+    </section>
+
+    <section>
+      <h2>Sharing of data</h2>
+      <p>We share data only with the service providers described above, which act on our behalf: <strong>Google LLC</strong> (Firebase for online features, AdMob for advertising). We do not sell personal data and do not share it with anyone else, except if required by law.</p>
+    </section>
+
+    <section>
+      <h2>Security and retention</h2>
+      <p>Data sent online is encrypted in transit (HTTPS). Online data is kept as long as the online features are used. Ratings and leaderboard entries are tied to a week or a month and are no longer shown once that period is over. Reports are kept as long as needed for moderation.</p>
+    </section>
+
+    <section>
+      <h2>Your rights and deleting your data</h2>
+      <p>You can stop using online features at any time. To have your online data (nickname, hideout, scores, ratings) deleted, email us at <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a> with your hideout ID (shown in the App, format “CARAT-XXXX-XXXX”). We will delete it within 30 days.</p>
+      <p>Depending on where you live (for example under the GDPR), you may also have the right to access, correct, restrict or object to the processing of your data, and to lodge a complaint with your data protection authority.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>The App is not directed at children under 13 and we do not knowingly collect personal data from them. If you believe a child has provided us with personal data, contact us and we will delete it.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy, for example when new features are added. The date at the top of this page shows the latest version. Significant changes will be announced in the App or on its Google Play page.</p>
+    </section>
+  </article>
+
+  <!-- ======================= FRANÇAIS ======================= -->
+  <article lang="fr" data-lang="fr" data-title="Règles de confidentialité">
+    <p class="date">Dernière mise à jour : 16 octobre 2026</p>
+
+    <section>
+      <h2>Qui sommes-nous</h2>
+      <p>Ces règles s'appliquent au jeu mobile <strong>Carat</strong> (l'« Application »), publié sur Google Play par <strong>AflowStudio</strong> (« nous »). Elles expliquent quelles données l'Application collecte, pourquoi, et avec qui elles sont partagées.</p>
+      <p>Contact : <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>En bref</h2>
+      <ul>
+        <li>Vous ne créez jamais de compte, et nous ne demandons jamais votre nom, e-mail, numéro de téléphone, contacts, photos ou position.</li>
+        <li>Votre progression (joyaux, rubis, meubles, repaire) est enregistrée <strong>sur votre appareil</strong>.</li>
+        <li>Les fonctions en ligne (classements, visite des repaires) utilisent un identifiant <strong>anonyme</strong> et le pseudo que vous choisissez.</li>
+        <li>L'Application affiche des <strong>publicités</strong> via Google AdMob, qui collecte des données de l'appareil pour les diffuser et les mesurer.</li>
+        <li>Nous ne vendons pas vos données.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Données enregistrées sur votre appareil</h2>
+      <p>Votre progression, vos réglages (langue, volume), vos achats en monnaie du jeu et l'aménagement de votre repaire sont enregistrés localement, dans l'espace privé de l'Application. Ces données restent sur votre appareil et sont effacées quand vous désinstallez l'Application.</p>
+    </section>
+
+    <section>
+      <h2>Fonctions en ligne</h2>
+      <p>Pour proposer les classements, les notes de repaires et les visites entre joueurs, l'Application utilise <strong>Google Firebase</strong> (Firebase Authentication et Cloud Firestore). Quand vous utilisez ces fonctions, les données suivantes sont envoyées à Firebase :</p>
+      <table>
+        <thead><tr><th>Donnée</th><th>Utilisation</th></tr></thead>
+        <tbody>
+          <tr><td>Identifiant anonyme</td><td>Créé automatiquement par Firebase, sans lien avec votre identité. Sert à distinguer les joueurs et à protéger vos données.</td></tr>
+          <tr><td>Pseudo</td><td>Le nom que vous choisissez (par exemple « Nom#1234 »), visible par les autres joueurs dans les classements et les visites. N'utilisez pas votre vrai nom.</td></tr>
+          <tr><td>Aménagement du repaire et code de partage</td><td>Pour que les autres joueurs puissent visiter votre repaire.</td></tr>
+          <tr><td>Scores</td><td>Classements de la semaine, du mois et de tous les temps pour chaque jeu.</td></tr>
+          <tr><td>Notes</td><td>Les notes de 1 à 10 que vous donnez aux repaires des autres joueurs.</td></tr>
+          <tr><td>Signalements</td><td>Quand vous signalez un joueur, nous enregistrons votre identifiant anonyme, le joueur signalé et la date, pour modérer les pseudos ou contenus inappropriés.</td></tr>
+        </tbody>
+      </table>
+      <p>Comme pour tout service en ligne, les serveurs de Google traitent aussi des données techniques, comme votre adresse IP, pour fournir le service. Voir <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Confidentialité et sécurité de Firebase</a>.</p>
+    </section>
+
+    <section>
+      <h2>Publicité</h2>
+      <p>L'Application est gratuite et propose des vidéos publicitaires avec récompense (que vous choisissez de regarder, par exemple pour gagner des rubis) via <strong>Google AdMob</strong>. AdMob peut collecter et utiliser :</p>
+      <ul>
+        <li>l'identifiant publicitaire de votre appareil (identifiant publicitaire Android),</li>
+        <li>des informations sur l'appareil (modèle, système, langue, écran),</li>
+        <li>votre adresse IP et la position approximative qui s'en déduit,</li>
+        <li>vos interactions avec les publicités (affichages, clics).</li>
+      </ul>
+      <p>Ces données servent à afficher les publicités, limiter leur répétition, mesurer leurs performances et lutter contre la fraude. Selon vos choix et votre pays, les publicités peuvent être personnalisées. Lorsque la loi l'exige (par exemple dans l'Espace économique européen et au Royaume-Uni), votre consentement est demandé avant tout affichage de publicités personnalisées.</p>
+      <p>Vous pouvez réinitialiser ou supprimer votre identifiant publicitaire, ou refuser les publicités personnalisées, dans les réglages de l'appareil : <em>Paramètres › Google › Annonces</em> (ou <em>Paramètres › Confidentialité › Annonces</em>). En savoir plus : <a href="https://policies.google.com/technologies/partner-sites?hl=fr" target="_blank" rel="noopener">Comment Google utilise les informations des applications qui utilisent ses services</a>.</p>
+    </section>
+
+    <section>
+      <h2>Partage des données</h2>
+      <p>Nous ne partageons des données qu'avec les prestataires décrits ci-dessus, qui agissent pour notre compte : <strong>Google LLC</strong> (Firebase pour les fonctions en ligne, AdMob pour la publicité). Nous ne vendons aucune donnée personnelle et ne la partageons avec personne d'autre, sauf obligation légale.</p>
+    </section>
+
+    <section>
+      <h2>Sécurité et conservation</h2>
+      <p>Les données envoyées en ligne sont chiffrées pendant leur transfert (HTTPS). Les données en ligne sont conservées tant que les fonctions en ligne sont utilisées. Les notes et les scores sont liés à une semaine ou à un mois et ne sont plus affichés une fois la période terminée. Les signalements sont conservés le temps nécessaire à la modération.</p>
+    </section>
+
+    <section>
+      <h2>Vos droits et la suppression de vos données</h2>
+      <p>Vous pouvez cesser d'utiliser les fonctions en ligne à tout moment. Pour faire supprimer vos données en ligne (pseudo, repaire, scores, notes), écrivez-nous à <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a> en indiquant l'identifiant de votre repaire (affiché dans l'Application, au format « CARAT-XXXX-XXXX »). Nous les supprimerons sous 30 jours.</p>
+      <p>Selon votre pays (par exemple au titre du RGPD), vous disposez aussi d'un droit d'accès, de rectification, de limitation et d'opposition au traitement de vos données, ainsi que du droit d'introduire une réclamation auprès de l'autorité de protection des données (en France, la <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>).</p>
+    </section>
+
+    <section>
+      <h2>Enfants</h2>
+      <p>L'Application ne s'adresse pas aux enfants de moins de 13 ans, et nous ne collectons pas sciemment de données personnelles les concernant. Si vous pensez qu'un enfant nous a transmis des données personnelles, contactez-nous et nous les supprimerons.</p>
+    </section>
+
+    <section>
+      <h2>Modifications</h2>
+      <p>Ces règles peuvent évoluer, par exemple à l'ajout de nouvelles fonctions. La date en haut de cette page indique la dernière version. Les changements importants seront annoncés dans l'Application ou sur sa page Google Play.</p>
+    </section>
+  </article>
+
+  <!-- ======================= ESPAÑOL ======================= -->
+  <article lang="es" data-lang="es" data-title="Política de privacidad">
+    <p class="date">Última actualización: 16 de octubre de 2026</p>
+
+    <section>
+      <h2>Quiénes somos</h2>
+      <p>Esta política se aplica al juego para móviles <strong>Carat</strong> (la «Aplicación»), publicado en Google Play por <strong>AflowStudio</strong> («nosotros»). Explica qué datos recoge la Aplicación, para qué y con quién se comparten.</p>
+      <p>Contacto: <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>En resumen</h2>
+      <ul>
+        <li>Nunca creas una cuenta y nunca te pedimos tu nombre, correo electrónico, número de teléfono, contactos, fotos ni ubicación.</li>
+        <li>Tu progreso (gemas, rubíes, muebles, guarida) se guarda <strong>en tu dispositivo</strong>.</li>
+        <li>Las funciones en línea (clasificaciones, visitas a guaridas) usan un identificador <strong>anónimo</strong> y el apodo que elijas.</li>
+        <li>La Aplicación muestra <strong>anuncios</strong> a través de Google AdMob, que recoge datos del dispositivo para mostrarlos y medirlos.</li>
+        <li>No vendemos tus datos.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Datos guardados en tu dispositivo</h2>
+      <p>Tu progreso, tus ajustes (idioma, volumen), las compras hechas con la moneda del juego y la decoración de tu guarida se guardan localmente, en el almacenamiento privado de la Aplicación. Estos datos se quedan en tu dispositivo y se borran al desinstalar la Aplicación.</p>
+    </section>
+
+    <section>
+      <h2>Funciones en línea</h2>
+      <p>Para ofrecer clasificaciones, valoraciones de guaridas y visitas entre jugadores, la Aplicación usa <strong>Google Firebase</strong> (Firebase Authentication y Cloud Firestore). Cuando usas estas funciones, se envían a Firebase los siguientes datos:</p>
+      <table>
+        <thead><tr><th>Dato</th><th>Finalidad</th></tr></thead>
+        <tbody>
+          <tr><td>Identificador anónimo</td><td>Creado automáticamente por Firebase, sin relación con tu identidad. Sirve para distinguir a los jugadores y proteger tus datos.</td></tr>
+          <tr><td>Apodo</td><td>El nombre que eliges (por ejemplo «Nombre#1234»), visible para otros jugadores en las clasificaciones y las visitas. No uses tu nombre real.</td></tr>
+          <tr><td>Decoración de la guarida y código para compartir</td><td>Para que otros jugadores puedan visitar tu guarida.</td></tr>
+          <tr><td>Puntuaciones</td><td>Clasificaciones semanales, mensuales y de todos los tiempos de cada juego.</td></tr>
+          <tr><td>Valoraciones</td><td>Las notas del 1 al 10 que das a las guaridas de otros jugadores.</td></tr>
+          <tr><td>Denuncias</td><td>Cuando denuncias a un jugador, guardamos tu identificador anónimo, el jugador denunciado y la fecha, para moderar apodos o contenidos inapropiados.</td></tr>
+        </tbody>
+      </table>
+      <p>Como cualquier servicio en línea, los servidores de Google también tratan datos técnicos, como tu dirección IP, para prestar el servicio. Consulta <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacidad y seguridad en Firebase</a>.</p>
+    </section>
+
+    <section>
+      <h2>Publicidad</h2>
+      <p>La Aplicación es gratuita y ofrece vídeos publicitarios con recompensa (que tú decides ver, por ejemplo para ganar rubíes) a través de <strong>Google AdMob</strong>. AdMob puede recoger y usar:</p>
+      <ul>
+        <li>el identificador de publicidad de tu dispositivo (ID de publicidad de Android),</li>
+        <li>información del dispositivo (modelo, sistema operativo, idioma, pantalla),</li>
+        <li>tu dirección IP y la ubicación aproximada que se deduce de ella,</li>
+        <li>tus interacciones con los anuncios (visualizaciones, clics).</li>
+      </ul>
+      <p>Estos datos sirven para mostrar anuncios, limitar su repetición, medir su rendimiento y prevenir el fraude. Según tus preferencias y tu país, los anuncios pueden ser personalizados. Cuando la ley lo exige (por ejemplo, en el Espacio Económico Europeo y el Reino Unido), se solicita tu consentimiento antes de mostrar anuncios personalizados.</p>
+      <p>Puedes restablecer o eliminar tu identificador de publicidad, o rechazar los anuncios personalizados, en los ajustes del dispositivo: <em>Ajustes › Google › Anuncios</em> (o <em>Ajustes › Privacidad › Anuncios</em>). Más información: <a href="https://policies.google.com/technologies/partner-sites?hl=es" target="_blank" rel="noopener">Cómo utiliza Google la información de las aplicaciones que usan sus servicios</a>.</p>
+    </section>
+
+    <section>
+      <h2>Datos compartidos</h2>
+      <p>Solo compartimos datos con los proveedores descritos arriba, que actúan en nuestro nombre: <strong>Google LLC</strong> (Firebase para las funciones en línea, AdMob para la publicidad). No vendemos datos personales ni los compartimos con nadie más, salvo obligación legal.</p>
+    </section>
+
+    <section>
+      <h2>Seguridad y conservación</h2>
+      <p>Los datos enviados en línea se cifran durante la transferencia (HTTPS). Los datos en línea se conservan mientras se usen las funciones en línea. Las valoraciones y las puntuaciones están ligadas a una semana o a un mes y dejan de mostrarse cuando termina ese periodo. Las denuncias se conservan el tiempo necesario para la moderación.</p>
+    </section>
+
+    <section>
+      <h2>Tus derechos y la eliminación de tus datos</h2>
+      <p>Puedes dejar de usar las funciones en línea en cualquier momento. Para que eliminemos tus datos en línea (apodo, guarida, puntuaciones, valoraciones), escríbenos a <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a> indicando el identificador de tu guarida (visible en la Aplicación, con el formato «CARAT-XXXX-XXXX»). Los eliminaremos en un plazo de 30 días.</p>
+      <p>Según tu país (por ejemplo, en virtud del RGPD), también tienes derecho a acceder a tus datos, rectificarlos, limitar su tratamiento u oponerte a él, así como a presentar una reclamación ante la autoridad de protección de datos (en España, la <a href="https://www.aepd.es" target="_blank" rel="noopener">AEPD</a>).</p>
+    </section>
+
+    <section>
+      <h2>Menores</h2>
+      <p>La Aplicación no está dirigida a menores de 13 años y no recogemos a sabiendas datos personales suyos. Si crees que un menor nos ha proporcionado datos personales, contáctanos y los eliminaremos.</p>
+    </section>
+
+    <section>
+      <h2>Cambios en esta política</h2>
+      <p>Podemos actualizar esta política, por ejemplo al añadir nuevas funciones. La fecha que aparece al principio de esta página indica la última versión. Los cambios importantes se anunciarán en la Aplicación o en su página de Google Play.</p>
+    </section>
+  </article>
+
+  <!-- ======================= ITALIANO ======================= -->
+  <article lang="it" data-lang="it" data-title="Informativa sulla privacy">
+    <p class="date">Ultimo aggiornamento: 16 ottobre 2026</p>
+
+    <section>
+      <h2>Chi siamo</h2>
+      <p>La presente informativa si applica al gioco per dispositivi mobili <strong>Carat</strong> (l'«App»), pubblicato su Google Play da <strong>AflowStudio</strong> («noi»). Spiega quali dati raccoglie l'App, perché e con chi vengono condivisi.</p>
+      <p>Contatto: <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>In breve</h2>
+      <ul>
+        <li>Non crei mai un account e non ti chiediamo mai nome, e-mail, numero di telefono, contatti, foto o posizione.</li>
+        <li>I tuoi progressi (gemme, rubini, mobili, covo) vengono salvati <strong>sul tuo dispositivo</strong>.</li>
+        <li>Le funzioni online (classifiche, visite ai covi) usano un identificativo <strong>anonimo</strong> e il nickname che scegli.</li>
+        <li>L'App mostra <strong>annunci</strong> tramite Google AdMob, che raccoglie dati del dispositivo per mostrarli e misurarli.</li>
+        <li>Non vendiamo i tuoi dati.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Dati salvati sul tuo dispositivo</h2>
+      <p>I tuoi progressi, le impostazioni (lingua, volume), gli acquisti fatti con la valuta del gioco e l'arredamento del tuo covo vengono salvati localmente, nello spazio privato dell'App. Questi dati restano sul tuo dispositivo e vengono cancellati quando disinstalli l'App.</p>
+    </section>
+
+    <section>
+      <h2>Funzioni online</h2>
+      <p>Per offrire classifiche, voti ai covi e visite tra giocatori, l'App usa <strong>Google Firebase</strong> (Firebase Authentication e Cloud Firestore). Quando usi queste funzioni, a Firebase vengono inviati i seguenti dati:</p>
+      <table>
+        <thead><tr><th>Dato</th><th>Finalità</th></tr></thead>
+        <tbody>
+          <tr><td>Identificativo anonimo</td><td>Creato automaticamente da Firebase, non collegato alla tua identità. Serve a distinguere i giocatori e a proteggere i tuoi dati.</td></tr>
+          <tr><td>Nickname</td><td>Il nome che scegli (ad esempio «Nome#1234»), visibile agli altri giocatori nelle classifiche e nelle visite. Non usare il tuo vero nome.</td></tr>
+          <tr><td>Arredamento del covo e codice di condivisione</td><td>Per permettere agli altri giocatori di visitare il tuo covo.</td></tr>
+          <tr><td>Punteggi</td><td>Classifiche settimanali, mensili e di sempre di ogni gioco.</td></tr>
+          <tr><td>Voti</td><td>I voti da 1 a 10 che dai ai covi degli altri giocatori.</td></tr>
+          <tr><td>Segnalazioni</td><td>Quando segnali un giocatore, registriamo il tuo identificativo anonimo, il giocatore segnalato e la data, per moderare nickname o contenuti inappropriati.</td></tr>
+        </tbody>
+      </table>
+      <p>Come ogni servizio online, i server di Google trattano anche dati tecnici, come il tuo indirizzo IP, per fornire il servizio. Vedi <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy e sicurezza in Firebase</a>.</p>
+    </section>
+
+    <section>
+      <h2>Pubblicità</h2>
+      <p>L'App è gratuita e offre video pubblicitari con premio (che scegli tu di guardare, ad esempio per ottenere rubini) tramite <strong>Google AdMob</strong>. AdMob può raccogliere e usare:</p>
+      <ul>
+        <li>l'identificativo pubblicitario del dispositivo (ID pubblicità Android),</li>
+        <li>informazioni sul dispositivo (modello, sistema operativo, lingua, schermo),</li>
+        <li>il tuo indirizzo IP e la posizione approssimativa che se ne ricava,</li>
+        <li>le tue interazioni con gli annunci (visualizzazioni, clic).</li>
+      </ul>
+      <p>Questi dati servono a mostrare gli annunci, limitarne la ripetizione, misurarne il rendimento e prevenire le frodi. In base alle tue scelte e al tuo paese, gli annunci possono essere personalizzati. Dove la legge lo richiede (ad esempio nello Spazio economico europeo e nel Regno Unito), ti viene chiesto il consenso prima di mostrare annunci personalizzati.</p>
+      <p>Puoi reimpostare o eliminare il tuo identificativo pubblicitario, o rifiutare gli annunci personalizzati, nelle impostazioni del dispositivo: <em>Impostazioni › Google › Annunci</em> (oppure <em>Impostazioni › Privacy › Annunci</em>). Per saperne di più: <a href="https://policies.google.com/technologies/partner-sites?hl=it" target="_blank" rel="noopener">Come Google utilizza le informazioni delle app che usano i suoi servizi</a>.</p>
+    </section>
+
+    <section>
+      <h2>Condivisione dei dati</h2>
+      <p>Condividiamo i dati solo con i fornitori descritti sopra, che agiscono per nostro conto: <strong>Google LLC</strong> (Firebase per le funzioni online, AdMob per la pubblicità). Non vendiamo dati personali e non li condividiamo con nessun altro, salvo obblighi di legge.</p>
+    </section>
+
+    <section>
+      <h2>Sicurezza e conservazione</h2>
+      <p>I dati inviati online sono cifrati durante il trasferimento (HTTPS). I dati online vengono conservati finché si usano le funzioni online. I voti e i punteggi sono legati a una settimana o a un mese e non vengono più mostrati al termine del periodo. Le segnalazioni sono conservate per il tempo necessario alla moderazione.</p>
+    </section>
+
+    <section>
+      <h2>I tuoi diritti e la cancellazione dei dati</h2>
+      <p>Puoi smettere di usare le funzioni online in qualsiasi momento. Per far cancellare i tuoi dati online (nickname, covo, punteggi, voti), scrivici a <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a> indicando l'identificativo del tuo covo (visibile nell'App, nel formato «CARAT-XXXX-XXXX»). Li cancelleremo entro 30 giorni.</p>
+      <p>A seconda del paese (ad esempio ai sensi del GDPR), hai anche il diritto di accedere ai tuoi dati, rettificarli, limitarne il trattamento od opporti a esso, e di proporre reclamo all'autorità di protezione dei dati (in Italia, il <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">Garante per la protezione dei dati personali</a>).</p>
+    </section>
+
+    <section>
+      <h2>Minori</h2>
+      <p>L'App non è destinata ai minori di 13 anni e non raccogliamo consapevolmente i loro dati personali. Se ritieni che un minore ci abbia fornito dati personali, contattaci e li cancelleremo.</p>
+    </section>
+
+    <section>
+      <h2>Modifiche</h2>
+      <p>Potremmo aggiornare questa informativa, ad esempio quando aggiungiamo nuove funzioni. La data in cima alla pagina indica l'ultima versione. Le modifiche importanti saranno annunciate nell'App o nella sua pagina Google Play.</p>
+    </section>
+  </article>
+
+  <!-- ======================= DEUTSCH ======================= -->
+  <article lang="de" data-lang="de" data-title="Datenschutzerklärung">
+    <p class="date">Zuletzt aktualisiert: 16. Oktober 2026</p>
+
+    <section>
+      <h2>Wer wir sind</h2>
+      <p>Diese Datenschutzerklärung gilt für das Handyspiel <strong>Carat</strong> (die „App“), das von <strong>AflowStudio</strong> („wir“) bei Google Play veröffentlicht wird. Sie erklärt, welche Daten die App erhebt, wozu und mit wem sie geteilt werden.</p>
+      <p>Kontakt: <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>Kurz gesagt</h2>
+      <ul>
+        <li>Du legst nie ein Konto an, und wir fragen nie nach deinem Namen, deiner E-Mail-Adresse, Telefonnummer, deinen Kontakten, Fotos oder deinem Standort.</li>
+        <li>Dein Fortschritt (Edelsteine, Rubine, Möbel, Versteck) wird <strong>auf deinem Gerät</strong> gespeichert.</li>
+        <li>Online-Funktionen (Bestenlisten, Besuche in Verstecken) nutzen eine <strong>anonyme</strong> Kennung und den Spitznamen, den du wählst.</li>
+        <li>Die App zeigt <strong>Werbung</strong> über Google AdMob, das Gerätedaten erhebt, um Anzeigen auszuliefern und zu messen.</li>
+        <li>Wir verkaufen deine Daten nicht.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Auf deinem Gerät gespeicherte Daten</h2>
+      <p>Dein Spielfortschritt, deine Einstellungen (Sprache, Lautstärke), Käufe mit der Spielwährung und die Einrichtung deines Verstecks werden lokal im privaten Speicher der App abgelegt. Diese Daten bleiben auf deinem Gerät und werden gelöscht, wenn du die App deinstallierst.</p>
+    </section>
+
+    <section>
+      <h2>Online-Funktionen</h2>
+      <p>Für Bestenlisten, Bewertungen von Verstecken und Besuche zwischen Spielern nutzt die App <strong>Google Firebase</strong> (Firebase Authentication und Cloud Firestore). Wenn du diese Funktionen nutzt, werden folgende Daten an Firebase gesendet:</p>
+      <table>
+        <thead><tr><th>Daten</th><th>Zweck</th></tr></thead>
+        <tbody>
+          <tr><td>Anonyme Kennung</td><td>Wird automatisch von Firebase erstellt und ist nicht mit deiner Identität verknüpft. Dient dazu, Spieler zu unterscheiden und deine Daten zu schützen.</td></tr>
+          <tr><td>Spitzname</td><td>Der Name, den du wählst (zum Beispiel „Name#1234“), sichtbar für andere Spieler in Bestenlisten und bei Besuchen. Verwende nicht deinen echten Namen.</td></tr>
+          <tr><td>Einrichtung des Verstecks und Teilen-Code</td><td>Damit andere Spieler dein Versteck besuchen können.</td></tr>
+          <tr><td>Punktzahlen</td><td>Wochen-, Monats- und Allzeit-Bestenlisten jedes Spiels.</td></tr>
+          <tr><td>Bewertungen</td><td>Die Noten von 1 bis 10, die du den Verstecken anderer Spieler gibst.</td></tr>
+          <tr><td>Meldungen</td><td>Wenn du einen Spieler meldest, speichern wir deine anonyme Kennung, den gemeldeten Spieler und das Datum, um unangemessene Spitznamen oder Inhalte zu moderieren.</td></tr>
+        </tbody>
+      </table>
+      <p>Wie bei jedem Online-Dienst verarbeiten die Server von Google auch technische Daten wie deine IP-Adresse, um den Dienst bereitzustellen. Siehe <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Datenschutz und Sicherheit in Firebase</a>.</p>
+    </section>
+
+    <section>
+      <h2>Werbung</h2>
+      <p>Die App ist kostenlos und bietet Videoanzeigen mit Belohnung (die du freiwillig ansiehst, zum Beispiel um Rubine zu erhalten) über <strong>Google AdMob</strong>. AdMob kann Folgendes erheben und nutzen:</p>
+      <ul>
+        <li>die Werbe-ID deines Geräts (Android-Werbe-ID),</li>
+        <li>Geräteinformationen (Modell, Betriebssystem, Sprache, Bildschirm),</li>
+        <li>deine IP-Adresse und den daraus abgeleiteten ungefähren Standort,</li>
+        <li>deine Interaktionen mit Anzeigen (Aufrufe, Klicks).</li>
+      </ul>
+      <p>Diese Daten dienen dazu, Anzeigen auszuliefern, ihre Wiederholung zu begrenzen, ihre Leistung zu messen und Betrug zu verhindern. Je nach deinen Einstellungen und deinem Land können Anzeigen personalisiert sein. Wo es gesetzlich vorgeschrieben ist (zum Beispiel im Europäischen Wirtschaftsraum und im Vereinigten Königreich), wird deine Einwilligung eingeholt, bevor personalisierte Anzeigen gezeigt werden.</p>
+      <p>Du kannst deine Werbe-ID in den Geräteeinstellungen zurücksetzen oder löschen oder personalisierte Werbung ablehnen: <em>Einstellungen › Google › Anzeigen</em> (oder <em>Einstellungen › Datenschutz › Anzeigen</em>). Mehr dazu: <a href="https://policies.google.com/technologies/partner-sites?hl=de" target="_blank" rel="noopener">Wie Google Daten von Apps verwendet, die Google-Dienste nutzen</a>.</p>
+    </section>
+
+    <section>
+      <h2>Weitergabe von Daten</h2>
+      <p>Wir geben Daten nur an die oben beschriebenen Dienstleister weiter, die in unserem Auftrag handeln: <strong>Google LLC</strong> (Firebase für die Online-Funktionen, AdMob für die Werbung). Wir verkaufen keine personenbezogenen Daten und geben sie an niemanden sonst weiter, es sei denn, das Gesetz verlangt es.</p>
+    </section>
+
+    <section>
+      <h2>Sicherheit und Speicherdauer</h2>
+      <p>Online gesendete Daten werden bei der Übertragung verschlüsselt (HTTPS). Online-Daten werden gespeichert, solange die Online-Funktionen genutzt werden. Bewertungen und Bestenlisten-Einträge gelten für eine Woche oder einen Monat und werden nach Ablauf dieses Zeitraums nicht mehr angezeigt. Meldungen werden so lange aufbewahrt, wie es für die Moderation nötig ist.</p>
+    </section>
+
+    <section>
+      <h2>Deine Rechte und das Löschen deiner Daten</h2>
+      <p>Du kannst die Online-Funktionen jederzeit nicht mehr nutzen. Um deine Online-Daten (Spitzname, Versteck, Punktzahlen, Bewertungen) löschen zu lassen, schreib uns an <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a> und gib die Kennung deines Verstecks an (in der App sichtbar, im Format „CARAT-XXXX-XXXX“). Wir löschen sie innerhalb von 30 Tagen.</p>
+      <p>Je nach Land (zum Beispiel nach der DSGVO) hast du außerdem das Recht auf Auskunft, Berichtigung, Einschränkung der Verarbeitung und Widerspruch sowie das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+    </section>
+
+    <section>
+      <h2>Kinder</h2>
+      <p>Die App richtet sich nicht an Kinder unter 13 Jahren, und wir erheben nicht wissentlich personenbezogene Daten von ihnen. Wenn du glaubst, dass ein Kind uns personenbezogene Daten übermittelt hat, kontaktiere uns, und wir löschen sie.</p>
+    </section>
+
+    <section>
+      <h2>Änderungen</h2>
+      <p>Wir können diese Datenschutzerklärung aktualisieren, zum Beispiel wenn neue Funktionen hinzukommen. Das Datum oben auf dieser Seite zeigt die aktuelle Fassung. Wichtige Änderungen werden in der App oder auf ihrer Google-Play-Seite angekündigt.</p>
+    </section>
+  </article>
+
+  <!-- ======================= PORTUGUÊS ======================= -->
+  <article lang="pt-PT" data-lang="pt" data-title="Política de privacidade">
+    <p class="date">Última atualização: 16 de outubro de 2026</p>
+
+    <section>
+      <h2>Quem somos</h2>
+      <p>Esta política aplica-se ao jogo para telemóvel <strong>Carat</strong> (a «Aplicação»), publicado no Google Play pela <strong>AflowStudio</strong> («nós»). Explica que dados a Aplicação recolhe, para quê e com quem são partilhados.</p>
+      <p>Contacto: <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>Em resumo</h2>
+      <ul>
+        <li>Nunca crias uma conta e nunca te pedimos o nome, e-mail, número de telefone, contactos, fotografias ou localização.</li>
+        <li>O teu progresso (joias, rubis, móveis, esconderijo) é guardado <strong>no teu dispositivo</strong>.</li>
+        <li>As funcionalidades online (classificações, visitas a esconderijos) usam um identificador <strong>anónimo</strong> e a alcunha que escolheres.</li>
+        <li>A Aplicação mostra <strong>anúncios</strong> através do Google AdMob, que recolhe dados do dispositivo para os apresentar e medir.</li>
+        <li>Não vendemos os teus dados.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Dados guardados no teu dispositivo</h2>
+      <p>O teu progresso, as tuas definições (idioma, volume), as compras feitas com a moeda do jogo e a decoração do teu esconderijo são guardados localmente, no armazenamento privado da Aplicação. Estes dados ficam no teu dispositivo e são apagados quando desinstalas a Aplicação.</p>
+    </section>
+
+    <section>
+      <h2>Funcionalidades online</h2>
+      <p>Para oferecer classificações, avaliações de esconderijos e visitas entre jogadores, a Aplicação usa o <strong>Google Firebase</strong> (Firebase Authentication e Cloud Firestore). Quando usas estas funcionalidades, são enviados para o Firebase os seguintes dados:</p>
+      <table>
+        <thead><tr><th>Dado</th><th>Finalidade</th></tr></thead>
+        <tbody>
+          <tr><td>Identificador anónimo</td><td>Criado automaticamente pelo Firebase, sem ligação à tua identidade. Serve para distinguir os jogadores e proteger os teus dados.</td></tr>
+          <tr><td>Alcunha</td><td>O nome que escolhes (por exemplo «Nome#1234»), visível para os outros jogadores nas classificações e nas visitas. Não uses o teu nome verdadeiro.</td></tr>
+          <tr><td>Decoração do esconderijo e código de partilha</td><td>Para que outros jogadores possam visitar o teu esconderijo.</td></tr>
+          <tr><td>Pontuações</td><td>Classificações semanais, mensais e de sempre de cada jogo.</td></tr>
+          <tr><td>Avaliações</td><td>As notas de 1 a 10 que dás aos esconderijos dos outros jogadores.</td></tr>
+          <tr><td>Denúncias</td><td>Quando denuncias um jogador, guardamos o teu identificador anónimo, o jogador denunciado e a data, para moderar alcunhas ou conteúdos impróprios.</td></tr>
+        </tbody>
+      </table>
+      <p>Como em qualquer serviço online, os servidores da Google também tratam dados técnicos, como o teu endereço IP, para prestar o serviço. Consulta <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacidade e segurança no Firebase</a>.</p>
+    </section>
+
+    <section>
+      <h2>Publicidade</h2>
+      <p>A Aplicação é gratuita e oferece vídeos publicitários com recompensa (que escolhes ver, por exemplo para ganhar rubis) através do <strong>Google AdMob</strong>. O AdMob pode recolher e usar:</p>
+      <ul>
+        <li>o identificador de publicidade do dispositivo (ID de publicidade Android),</li>
+        <li>informações do dispositivo (modelo, sistema operativo, idioma, ecrã),</li>
+        <li>o teu endereço IP e a localização aproximada que dele se deduz,</li>
+        <li>as tuas interações com os anúncios (visualizações, cliques).</li>
+      </ul>
+      <p>Estes dados servem para mostrar anúncios, limitar a sua repetição, medir o seu desempenho e prevenir fraudes. Consoante as tuas escolhas e o teu país, os anúncios podem ser personalizados. Quando a lei o exige (por exemplo, no Espaço Económico Europeu e no Reino Unido), o teu consentimento é pedido antes de serem mostrados anúncios personalizados.</p>
+      <p>Podes repor ou eliminar o teu identificador de publicidade, ou recusar anúncios personalizados, nas definições do dispositivo: <em>Definições › Google › Anúncios</em> (ou <em>Definições › Privacidade › Anúncios</em>). Saber mais: <a href="https://policies.google.com/technologies/partner-sites?hl=pt-PT" target="_blank" rel="noopener">Como a Google usa as informações das apps que utilizam os seus serviços</a>.</p>
+    </section>
+
+    <section>
+      <h2>Partilha de dados</h2>
+      <p>Só partilhamos dados com os prestadores descritos acima, que atuam em nosso nome: <strong>Google LLC</strong> (Firebase para as funcionalidades online, AdMob para a publicidade). Não vendemos dados pessoais nem os partilhamos com mais ninguém, salvo obrigação legal.</p>
+    </section>
+
+    <section>
+      <h2>Segurança e conservação</h2>
+      <p>Os dados enviados online são cifrados durante a transferência (HTTPS). Os dados online são conservados enquanto as funcionalidades online forem usadas. As avaliações e as pontuações estão ligadas a uma semana ou a um mês e deixam de ser mostradas quando esse período termina. As denúncias são conservadas durante o tempo necessário à moderação.</p>
+    </section>
+
+    <section>
+      <h2>Os teus direitos e a eliminação dos teus dados</h2>
+      <p>Podes deixar de usar as funcionalidades online a qualquer momento. Para pedires a eliminação dos teus dados online (alcunha, esconderijo, pontuações, avaliações), escreve-nos para <a href="mailto:contact.monirate@gmail.com">contact.monirate@gmail.com</a> indicando o identificador do teu esconderijo (visível na Aplicação, no formato «CARAT-XXXX-XXXX»). Eliminá-los-emos no prazo de 30 dias.</p>
+      <p>Consoante o teu país (por exemplo, ao abrigo do RGPD), tens também o direito de aceder aos teus dados, retificá-los, limitar o seu tratamento ou opor-te a ele, bem como de apresentar reclamação junto da autoridade de proteção de dados (em Portugal, a <a href="https://www.cnpd.pt" target="_blank" rel="noopener">CNPD</a>).</p>
+    </section>
+
+    <section>
+      <h2>Crianças</h2>
+      <p>A Aplicação não se destina a crianças com menos de 13 anos e não recolhemos conscientemente os seus dados pessoais. Se achares que uma criança nos forneceu dados pessoais, contacta-nos e eliminá-los-emos.</p>
+    </section>
+
+    <section>
+      <h2>Alterações</h2>
+      <p>Podemos atualizar esta política, por exemplo quando forem adicionadas novas funcionalidades. A data no topo desta página indica a versão mais recente. As alterações importantes serão anunciadas na Aplicação ou na sua página do Google Play.</p>
+    </section>
+  </article>
+
+  <footer>© 2026 AflowStudio · Carat</footer>
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll(".langs button");
+    var sub = document.querySelector(".sub");
+    var langs = ["en", "fr", "es", "it", "de", "pt"];
+    function show(lang) {
+      var shown = null;
+      document.querySelectorAll("article").forEach(function (a) {
+        var on = a.dataset.lang === lang;
+        a.classList.toggle("on", on);
+        if (on) shown = a;
+      });
+      buttons.forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+      });
+      document.documentElement.lang = shown.lang;
+      sub.textContent = shown.dataset.title;
+      document.title = "Carat – " + shown.dataset.title;
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener("click", function () {
+        show(b.dataset.lang);
+        history.replaceState(null, "", "#" + b.dataset.lang);
+      });
+    });
+    var wanted = location.hash.slice(1) || (navigator.language || "en").slice(0, 2).toLowerCase();
+    show(langs.indexOf(wanted) >= 0 ? wanted : "en");
+  })();
+</script>
+</body>
+</html>
